@@ -38,20 +38,22 @@
       </nav>
     </div>
     <main class="mdl-layout__content">
-      <div class="page-content"><!-- Your content goes here --></div>
+      <div class="page-content"><!-- Your content goes here -->
+        <?php
+        $userName = "";
+        if (isset($_POST['userName'])) {
+          $userName = $_POST['userName'];
+        }
+        echo "<h1>Welcome " . $userName . "!</h1>\n";
+        ?>
+      </div>
     </main>
   </div>
 </head>
 
 <body>
 
-  <?php
-  $userName = "";
-  if (isset($_POST['userName'])) {
-    $userName = $_POST['userName'];
-  }
-  echo "<h1>Welcome " . $userName . "!</h1>\n";
-  ?>
+
 
 </body>
 
