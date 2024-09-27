@@ -21,8 +21,8 @@
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation -->
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="https://legendary-capybara-6p5pgj5wj7w35pq9-8000.app.github.dev/">Link</a>
+          <a class="mdl-navigation__link" href="">Home</a>
           <a class="mdl-navigation__link" href="">Link</a>
           <a class="mdl-navigation__link" href="">Link</a>
         </nav>
